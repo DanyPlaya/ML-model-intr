@@ -1,4 +1,4 @@
-# Credit Card Default ML Deployment
+# Итоговый проект по дисциплине «Внедрение моделей машинного обучения»
 
 Проект демонстрирует production-like внедрение ML-сервиса для прогнозирования дефолта по кредитным картам на датасете [Default of Credit Card Clients Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).
 
