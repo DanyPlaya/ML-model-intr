@@ -1,0 +1,15 @@
+.git
+.pytest_cache
+__pycache__
+*.pyc
+.venv
+venv
+data/raw/*.csv
+data/raw/*.zip
+logs/*.jsonl
+logs/*.log
+tests
+README.md
+ab_test_plan.md
+models/*.py
+models/*.metrics.json

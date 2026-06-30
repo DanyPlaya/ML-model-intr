@@ -1,0 +1,7 @@
+{
+  "algorithm": "gradient_boosting",
+  "f1": 0.4688,
+  "precision": 0.6634,
+  "recall": 0.3625,
+  "roc_auc": 0.7784
+}

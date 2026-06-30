@@ -1,0 +1,7 @@
+{
+  "algorithm": "random_forest",
+  "f1": 0.5422,
+  "precision": 0.5065,
+  "recall": 0.5833,
+  "roc_auc": 0.7734
+}

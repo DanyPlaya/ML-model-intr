@@ -1,0 +1,15 @@
+services:
+  credit-default-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: credit-card-default-api:latest
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      MODEL_PATH: /app/models/model_v1.pkl
+      MODEL_PATH_V2: /app/models/model_v2.pkl
+      LOG_DIR: /app/logs
+    volumes:
+      - ./logs:/app/logs
