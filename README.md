@@ -21,7 +21,7 @@
 │   └── model_handler.py
 ├── data/
 │   └── raw/
-│       └── UCI_Credit_Card.csv          # локально, не коммитится
+│       └── UCI_Credit_Card.csv     
 ├── docker/
 │   └── Dockerfile
 ├── logs/
