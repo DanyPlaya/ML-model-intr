@@ -50,15 +50,6 @@ pip install -r requirements.txt
 python -m flask --app app.api run --host 0.0.0.0 --port 5000
 ```
 
-Linux/macOS:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m flask --app app.api run --host 0.0.0.0 --port 5000
-```
-
 ## Датасет и обучение
 
 Датасет скачивается с Kaggle в `data/raw/UCI_Credit_Card.csv`. CSV и ZIP исключены из Git, поэтому чистый клон воспроизводится одной командой:
